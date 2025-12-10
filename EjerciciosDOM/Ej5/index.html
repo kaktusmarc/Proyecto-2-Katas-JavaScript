@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Albums Legendarios</title>
+    <script src="script.js" defer></script>
+
+    <style>
+        body{
+            background: #111;
+            color: #fff;
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+        }
+
+        header{
+            text-align: center;
+            padding: 30px;
+            background: #222;
+            font-size: 30px;
+            letter-spacing: 2px;
+        }
+
+        main{
+            width: 60%;
+            margin: 40px auto;
+            background: #1a1a1a;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 18px rgba(255,255,255,0.1);
+        }
+
+        h2{
+            text-align: center;
+            font-size: 26px;
+        }
+
+        ul{
+            list-style: none;
+            padding: 0;
+        }
+
+        li{
+            background: #2b2b2b;
+            margin: 10px 0;
+            padding: 14px;
+            border-radius: 6px;
+            font-size: 20px;
+            transition: .3s;
+        }
+
+        li:hover{
+            background: #444;
+            transform: translateX(8px);
+        }
+
+        footer{
+            text-align: center;
+            margin-top: 40px;
+            color: #777;
+            font-size: 14px;
+            padding-bottom: 30px;
+        }
+    </style>
+</head>
+<body>
+
+    <header> ALBUMS DE METAL</header>
+
+    <main>
+        <h2>Lista de Albums</h2>
+        <ul id="album-list"></ul>
+    </main>
+
+    <footer>Creado con DOM + JS</footer>
+
+</body>
+</html>
